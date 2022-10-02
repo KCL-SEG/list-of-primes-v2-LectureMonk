@@ -2,6 +2,9 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def primes(number_of_primes):
+
+    if number_of_primes < 1:
+        raise ValueError("Number of primes cannot be less than 1")
     primeList = []
     nonPrimeList = []
     
